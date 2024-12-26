@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Chris Sewell
+# This file is distributed under the same license as the Sphinx Tippy
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Tippy 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-26 17:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../folder/other.md:2
+msgid "Content page"
+msgstr ""
+
+#: ../../folder/other.md:4
+msgid ""
+"This is an example of a page with lots of elements we would like to "
+"reference."
+msgstr ""
+
+#: ../../folder/other.md:8
+msgid "Other Caption"
+msgstr ""
+
+#: ../../folder/other.md:14
+msgid "Caption"
+msgstr ""
+
+#: ../../folder/other.md:17
+msgid "Table caption"
+msgstr ""
+
+#: ../../folder/other.md:32
+msgid "This is a class"
+msgstr ""
+
+#: ../../folder/other.md:34
+msgid "It has a docstring"
+msgstr ""
+
+#: ../../folder/other.md:36
+msgid "This is a method"
+msgstr ""
+
+#: ../../folder/other.md:40
+msgid ""
+"\\mathbf{u} \\times \\mathbf{v}=\\left|\\begin{array}{ll}u_{2} & u_{3} "
+"\\\\ v_{2} & v_{3}\\end{array}\\right| "
+"\\mathbf{i}+\\left|\\begin{array}{ll}u_{3} & u_{1} \\\\ v_{3} & "
+"v_{1}\\end{array}\\right| \\mathbf{j}+\\left|\\begin{array}{ll}u_{1} & "
+"u_{2} \\\\ v_{1} & v_{2}\\end{array}\\right| \\mathbf{k}"
+msgstr ""
+
+#: ../../folder/other.md:45
+msgid "Code block caption"
+msgstr ""
+
+#: ../../folder/other.md
+msgid "term"
+msgstr ""
+
+#: ../../folder/other.md:54
+msgid "This is a definition of a term."
+msgstr ""
+
+#: ../../folder/other.md:59
+msgid "This is an admonition"
+msgstr ""
+
+#: ../../folder/other.md:62
+msgid "{doc}`../index`"
+msgstr ""
+

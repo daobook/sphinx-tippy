@@ -44,6 +44,10 @@ tippy_rtd_urls = [
     "https://docs.readthedocs.io/en/stable/",
 ]
 
+# == 国际化输出 =======================================================================================
+language = 'zh_CN'
+locale_dirs = ['../locales/'] # 翻译文件的路径
+gettext_compact = False # 为每个翻译创建单独的 .po 文件。
 
 def setup(app):
     app.add_object_type(

@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Chris Sewell
+# This file is distributed under the same license as the Sphinx Tippy
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Tippy 0.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-26 17:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../index.md:1
+msgid "Sphinx Tippy"
+msgstr ""
+
+#: ../../index.md:3
+msgid ""
+"[![GitHub Repo stars](https://img.shields.io/github/stars/chrisjsewell"
+"/sphinx-"
+"tippy?label=Like%20and%20Share%21&style=social)](https://github.com/chrisjsewell"
+"/sphinx-tippy)"
+msgstr ""
+
+#: ../../index.md:3
+msgid "GitHub Repo stars"
+msgstr ""
+
+#: ../../index.md:5
+msgid "Get rich hover tips in your sphinx documentation."
+msgstr "在你的 Sphinx 文档中获取丰富的悬停提示。"
+
+#: ../../index.md:7
+msgid "[**Hover on me!**](https://atomiks.github.io/tippyjs)"
+msgstr ""
+
+#: ../../index.md:14
+msgid "Installation"
+msgstr "安装"
+
+#: ../../index.md:16
+msgid "Install with pip:"
+msgstr "使用 pip 安装："
+
+#: ../../index.md:23
+msgid "Usage"
+msgstr "使用"
+
+#: ../../index.md:25
+msgid "Add the extension to your `conf.py`:"
+msgstr "在 `conf.py` 中插件："
+
+#: ../../index.md:31
+msgid "Now your website will have tooltips on many of your links!"
+msgstr "你的网站将拥有许多链接的悬停提示！"
+
+#: ../../index.md:35
+msgid "[Custom tip](https://example.com)"
+msgstr ""
+
+#: ../../index.md:37
+msgid "[Wikipedia tips](https://en.wikipedia.org/wiki/Tooltip)"
+msgstr ""
+
+#: ../../index.md:39
+msgid "[DOI tip](https://doi.org/10.1186/gm483)"
+msgstr ""
+
+#: ../../index.md:41
+msgid ""
+"[ReadTheDocs tip](https://www.sphinx-"
+"doc.org/en/master/usage/quickstart.html#intersphinx)"
+msgstr ""
+
+#: ../../index.md:43
+msgid "{ref}`Figure reference with URL image <figure-name-url>`"
+msgstr ""
+
+#: ../../index.md:45
+msgid "{ref}`Figure reference with local image <figure-name-file>`"
+msgstr ""
+
+#: ../../index.md:47
+msgid "{ref}`Figure reference by another id <figure-name-dup>`"
+msgstr ""
+
+#: ../../index.md:49
+msgid "{ref}`Image reference <image-name>`"
+msgstr ""
+
+#: ../../index.md:51
+msgid "{py:class}`Python Class reference <Foo>`"
+msgstr ""
+
+#: ../../index.md:53
+msgid "{ref}`Table reference <table-name>`"
+msgstr ""
+
+#: ../../index.md:55
+msgid "{ref}`Heading reference <intro/usage>`"
+msgstr ""
+
+#: ../../index.md:57
+msgid "{doc}`Document reference <folder/other>`"
+msgstr ""
+
+#: ../../index.md:59
+msgid "{doc}`Same document reference <../index>`"
+msgstr ""
+
+#: ../../index.md:61
+msgid "Math reference {eq}`math-name`"
+msgstr ""
+
+#: ../../index.md:63
+msgid "{ref}`Code reference <code-name>`"
+msgstr ""
+
+#: ../../index.md:65
+msgid "{ref}`Admonition reference <admonition-name>`"
+msgstr ""
+
+#: ../../index.md:67
+msgid "{term}`Glossary reference <term>`"
+msgstr ""
+
+#: ../../index.md:69
+msgid "Footnote reference [^1]"
+msgstr ""
+
+#: ../../index.md:78
+msgid ""
+"Dependent on the theme you ar using with sphinx, you may need to add some"
+" CSS to your `conf.py` to make the tooltips show correctly."
+msgstr ""
+"根据你在 Sphinx 中使用的主题，你可能需要在 `conf.py` 中添加一些 CSS，"
+"以确保工具提示正确显示。"
+
+#: ../../index.md:81
+msgid ""
+"For example, for the [Pydata Sphinx Theme](https://pydata-sphinx-"
+"theme.readthedocs.io):"
+msgstr ""
+"例如，对于 [Pydata Sphinx 主题](https://pydata-sphinx-theme.readthedocs.io)："
+
+#: ../../index.md:83 ../../index.md:143
+msgid "`conf.py`:"
+msgstr ""
+
+#: ../../index.md:90 ../../index.md:151
+msgid "`_static/tippy.css`:"
+msgstr ""
+
+#: ../../index.md:102
+msgid "How does it work?"
+msgstr "如何工作？"
+
+#: ../../index.md:104
+msgid ""
+"The extension uses the [tippy.js](https://atomiks.github.io/tippyjs) "
+"library to create tooltips."
+msgstr ""
+"该扩展使用 [tippy.js](https://atomiks.github.io/tippyjs) 库来创建工具提示。"
+
+#: ../../index.md:106
+msgid ""
+"Currently, all tips are created during the build process, so there is no "
+"need for a server and, once loaded, all tips are very responsive "
+"(although [dynamic fetching](https://atomiks.github.io/tippyjs/v6/ajax/) "
+"could be implemented later)."
+msgstr ""
+"目前，所有提示都是在构建过程中创建的，因此不需要服务器，"
+"一旦加载，所有提示都非常响应迅速"
+"（尽管未来可以实现 [动态获取](https://atomiks.github.io/tippyjs/v6/ajax/)）。"
+
+#: ../../index.md:109
+msgid ""
+"The internal tips are created simply by \"scraping\" the built HTML, "
+"which bypasses having to deal with the sphinx internals, like domains "
+"etc."
+msgstr ""
+"内部提示是通过简单地“抓取”构建的 HTML 创建的，"
+"这绕过了处理 Sphinx 内部结构（如域等）的复杂性。"
+
+#: ../../index.md:111
+msgid ""
+"Note, there is another sphinx extension for hover tips; [sphinx-"
+"hoverxref](https://github.com/readthedocs/sphinx-hoverxref), however, one"
+" of the annoyances with this is that documentation has to be hosted on "
+"Read the Docs for it to work, since that used the RTD embed API "
+"dynamically."
+msgstr ""
+"请注意，还有另一个用于悬停提示的 Sphinx 插件：[sphinx-hoverxref](https://github.com/readthedocs/sphinx-hoverxref)，"
+"然而，它的令人烦恼的地方是文档必须托管在 Read the Docs 上才能正常工作，"
+"因为它动态使用了 RTD 嵌入 API。"
+
+#: ../../index.md:114
+msgid "Configuration"
+msgstr "配置"
+
+#: ../../index.md:116
+msgid "The extension has the following configuration options."
+msgstr "该插件具有以下配置选项。"
+
+#: ../../index.md:118
+msgid "Display"
+msgstr "展示"
+
+#: ../../index.md:121
+msgid ""
+"Overrides for the [tippy.js props](https://atomiks.github.io/tippyjs/v6"
+"/all-props/) to use, by default:"
+msgstr ""
+"默认情况下，用于覆盖 [tippy.js 属性](https://atomiks.github.io/tippyjs/v6/all-props/) 的设置如下："
+
+#: ../../index.md:127
+msgid "Note, only the following props are allowed to be overridden currently:"
+msgstr "注意，目前只允许覆盖以下属性："
+
+#: ../../index.md:129
+msgid "[placement](https://atomiks.github.io/tippyjs/v6/all-props/#placement)"
+msgstr ""
+
+#: ../../index.md:130
+msgid "[maxWidth](https://atomiks.github.io/tippyjs/v6/all-props/#maxwidth)"
+msgstr ""
+
+#: ../../index.md:131
+msgid "[theme](https://atomiks.github.io/tippyjs/v6/all-props/#theme)"
+msgstr ""
+
+#: ../../index.md:132
+msgid "[interactive](https://atomiks.github.io/tippyjs/v6/all-props/#interactive)"
+msgstr ""
+
+#: ../../index.md:133
+msgid "[delay](https://atomiks.github.io/tippyjs/v6/all-props/#delay)"
+msgstr ""
+
+#: ../../index.md:134
+msgid "[duration](https://atomiks.github.io/tippyjs/v6/all-props/#duration)"
+msgstr ""
+
+#: ../../index.md:139
+msgid "Add a class name to all elements with tips."
+msgstr ""
+
+#: ../../index.md:141
+msgid ""
+"For example this can be used to change the style of the cursor when "
+"hovering over a tip (see [`html_css_files`](https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-html_css_files)):"
+msgstr ""
+"例如，这可以用于更改悬停在提示上时的光标样式（参见 [`html_css_files`](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_css_files)）："
+
+#: ../../index.md:161
+msgid "Filters"
+msgstr "过滤"
+
+#: ../../index.md:163
+msgid "These configurations enable filtering of what tips are created, and shown."
+msgstr "这些配置可以筛选创建和显示的提示内容。"
+
+#: ../../index.md:166
+msgid ""
+"A list of URL [regexes](https://docs.python.org/3/howto/regex.html#regex-"
+"howto) to skip, for example:"
+msgstr ""
+"URL [正则表达式](https://docs.python.org/3/howto/regex.html#regex-howto) 列表，用于跳过某些内容，例如："
+
+#: ../../index.md:177
+msgid "Define what elements tips are created for, by default:"
+msgstr "默认情况下，定义哪些元素会生成提示："
+
+#: ../../index.md:186
+msgid "Skip showing tooltips for anchors with these classes, by default:"
+msgstr "默认情况下，跳过显示具有这些类的锚点的工具提示："
+
+#: ../../index.md:198
+msgid ""
+"Only show tool tips for anchors within this select, by default `\"\"`, "
+"examples:"
+msgstr ""
+"默认情况下，仅显示此选择范围内的锚点的工具提示，默认为 `\"\"`，"
+"例如："
+
+#: ../../index.md:209
+msgid "External APIs"
+msgstr "外部 APIs"
+
+#: ../../index.md:211
+msgid "These configurations enable fetching tips from external APIs."
+msgstr "这些配置支持从外部 API 获取提示信息。"
+
+#: ../../index.md:214
+msgid ""
+"A list of URL prefixes to use for ReadTheDocs tooltips (using the "
+"[`/api/v3/embed/` "
+"API](https://docs.readthedocs.io/en/stable/api/v3.html#embed)), for "
+"example:"
+msgstr ""
+"URL 前缀列表，用于 ReadTheDocs 工具提示（使用 [`/api/v3/embed/` API](https://docs.readthedocs.io/en/stable/api/v3.html#embed)），例如："
+
+#: ../../index.md:222
+msgid ""
+"This works for any ReadTheDocs hosted documentation. It works well with "
+"the [intersphinx extension](https://www.sphinx-"
+"doc.org/en/master/usage/quickstart.html#intersphinx)."
+msgstr ""
+"这适用于任何托管在 ReadTheDocs 上的文档。它与 [intersphinx 扩展](https://www.sphinx-doc.org/en/master/usage/quickstart.html#intersphinx) 配合良好。"
+
+#: ../../index.md:228
+msgid ""
+"Enable tooltips for wikipedia links, starting "
+"`https://en.wikipedia.org/wiki/`, by default `True`."
+msgstr ""
+"默认情况下，启用维基百科链接的工具提示，链接以 `https://en.wikipedia.org/wiki/` 开头，默认为 `True`。"
+
+#: ../../index.md:232
+msgid ""
+"Enable tooltips for DOI links, starting `https://doi.org/`, by default "
+"`True`."
+msgstr ""
+"默认情况下，启用 DOI 链接的工具提示，链接以 `https://doi.org/` 开头，默认为 `True`。"
+
+#: ../../index.md:236
+msgid ""
+"The API to use for DOI tooltips, by default "
+"`https://api.crossref.org/works/` (another possibility is "
+"`https://api.datacite.org/dois/`)"
+msgstr ""
+"用于 DOI 工具提示的 API，默认为 `https://api.crossref.org/works/` （另一种可能是 `https://api.datacite.org/dois/`）。"
+
+#: ../../index.md:241
+msgid ""
+"The [jinja template](https://jinja.palletsprojects.com) to use for "
+"formatting DOI data to tooltips, by default:"
+msgstr ""
+"用于将 DOI 数据格式化为工具提示的 [jinja 模板](https://jinja.palletsprojects.com)，默认为："
+
+#: ../../index.md:255
+msgid "(See <https://github.com/CrossRef/rest-api-doc/blob/master/api_format.md>)"
+msgstr ""
+
+#: ../../index.md:259
+msgid "Miscellaneous"
+msgstr "其他配置"
+
+#: ../../index.md:262
+msgid ""
+"A dictionary, mapping URLs to HTML strings, which will be used to create "
+"custom tips."
+msgstr ""
+"字典，将 URL 映射到 HTML 字符串，用于创建自定义提示。"
+
+#: ../../index.md:264
+msgid "For example, to add a tip for the URL `https://example.com`:"
+msgstr "例如，为 URL `https://example.com` 添加提示："
+
+#: ../../index.md:275
+msgid "Whether to enable tooltips for math equations, by default `False`."
+msgstr "是否启用数学方程的工具提示，默认为 `False`。"
+
+#: ../../index.md:277
+msgid ""
+"Note, this requires the `sphinx.ext.mathjax` extension to be enabled. At "
+"present it will cause `mathjax` to be loaded on every page, even if it is"
+" not used."
+msgstr ""
+"请注意，这需要启用 `sphinx.ext.mathjax` 扩展。目前，它会导致 `mathjax` 在每个页面上加载，即使未使用数学公式。"
+
+#: ../../index.md:282
+msgid "The Javascript required to enable tooltips, by default:"
+msgstr "启用工具提示所需的 Javascript，默认为："
+
+#: ../../index.md:73
+msgid "This is a footnote"
+msgstr ""
+
+#: ../../index.md:75
+msgid "This is another paragraph"
+msgstr ""
+
