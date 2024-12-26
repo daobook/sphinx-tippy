@@ -43,7 +43,8 @@ jobs:
       - name: 🔧 Build HTML
         run: |
           sudo apt-get install graphviz
-          pip install .[doc,dev]
+          pip install .[docs]
+          pip install taolib invoke
           conda install -c conda-forge pandoc
           invoke doc
       - name: Setup Pages
